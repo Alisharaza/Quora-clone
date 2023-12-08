@@ -1,0 +1,115 @@
+.loginContainer {
+  background: url("/public/images/login.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.img {
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.img h1 {
+  color: #635463;
+  font-size: 15px;
+  font-weight: bold;
+}
+.heading {
+  color: #282829;
+}
+.loginSubCon {
+  width: 650px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.loginSubCon img {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapLR {
+  width: 100%;
+  display: flex;
+  grid-template-columns: repeat(2, minmax(50px, 1fr));
+}
+
+.leftPart {
+  padding: 5px;
+  width: 300px;
+  font-size: 13px;
+  color: #939598;
+  border-right: 1px solid lightgrey;
+}
+.terms {
+  color: #195faa;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.rightPart {
+  padding-left: 16px;
+}
+.rightPart h1 {
+  color: #282829;
+  font-size: 15px;
+  font-weight: 500;
+  border-bottom: 1px solid lightgray;
+  padding: 5px;
+  margin-bottom: 12px;
+}
+
+.input {
+  border: 1px solid lightgrey;
+  width: 300px;
+  padding: 5px;
+  margin-bottom: 15px;
+  outline: none;
+}
+.input:hover {
+  border-color: #2e69ff;
+}
+.email1 {
+  font-size: 13px;
+  font-weight: 600;
+}
+.email {
+  width: 100%;
+  font-weight: 500;
+  padding: 5px;
+}
+.email:hover {
+  background-color: #eeeeee9d;
+  border-radius: 15px;
+}
+.forget {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.forget p {
+  font-size: 13px;
+  color: #939598;
+  cursor: pointer;
+}
+.forget p:hover {
+  text-decoration: underline;
+}
+.sub {
+  width: 90px;
+}

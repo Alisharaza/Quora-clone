@@ -1,0 +1,90 @@
+.sidebarOptions {
+  display: flex;
+  width: 100%;
+  max-width: 150px;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 40px;
+}
+.sidebarOptional {
+  display: flex;
+  align-items: center;
+  height: 52px;
+  gap: 15px;
+  width: 100%;
+}
+
+.createBtnIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.createBtn {
+  gap: 10px;
+  display: flex;
+  width: 80%;
+  height: 50px;
+  align-items: center;
+  color: #636466;
+  background: color #f1f2f2;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 13px;
+}
+.creatBtn1 {
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  font-weight: 200;
+  color: rgba(0, 0, 0, 0.724);
+}
+
+.createBtn:hover {
+  background: rgb(211, 211, 211);
+  border-radius: 5px;
+}
+
+.sidebarMainContainer {
+  display: flex;
+  /* margin-block: 10px; */
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 52px;
+  width: 113px;
+  gap: 20px;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.sidebarOption {
+  height: 19px;
+  width: 130px;
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  /* gap: 3px; */
+}
+.sidebarOption:hover {
+  background: rgb(211, 211, 211);
+  border-radius: 5px;
+}
+.sidebarOption img {
+  height: 18px;
+  width: 18px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+.sidebarOption p {
+  margin-left: 10px;
+  color: gray;
+  font-weight: 400;
+  font-size: 13px;
+}
+.sidebarOption .text {
+  margin-left: 23px;
+  color: gray;
+  font-weight: 400;
+  font-size: 13px;
+}

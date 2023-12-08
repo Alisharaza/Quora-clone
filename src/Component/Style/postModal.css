@@ -1,0 +1,46 @@
+.postContainer {
+}
+.addprofiles {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.pro {
+  width: 40px;
+  height: 40px;
+}
+.crediential {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  color: #282828;
+  font-weight: 500;
+  font-size: 13px;
+}
+.answerBtnContainer {
+  height: 300px;
+  width: 600px;
+}
+.creadidentialBtn {
+  border: 1px solid lightgray;
+  border-radius: 30px;
+  color: #636466;
+  font-weight: 500;
+  padding: 4px 18px;
+  font-size: 13px;
+}
+.questionHeading {
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+.sub {
+  width: 70px;
+}
+.text {
+  width: 100%;
+  height: 250px;
+  padding: 10px;
+}

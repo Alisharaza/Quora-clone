@@ -1,0 +1,21 @@
+.quora {
+  width: "100%";
+  min-width: fit-content;
+}
+
+.quoraContents {
+  display: flex;
+  justify-content: center;
+  padding: 18px 0;
+
+  min-width: fit-content;
+  width: 100%;
+}
+
+.quoraContent {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 10px;
+  width: 100%;
+  max-width: 1200px;
+}

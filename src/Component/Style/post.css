@@ -1,0 +1,202 @@
+.mainCardContainer {
+  display: block;
+  width: 590px;
+
+  background: #ffffff;
+}
+.mainHeading {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.cardHeader {
+  padding-top: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+.cardprofile {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 0px;
+  margin-left: 10px;
+  align-items: center;
+}
+.profileName {
+  cursor: pointer;
+}
+.profileName a {
+  text-decoration: none;
+  color: #282829;
+}
+a:hover {
+  text-decoration: underline;
+}
+.follow {
+  display: flex;
+  align-items: center;
+  color: #2e69ff;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+}
+.follow:hover {
+  text-decoration: underline;
+}
+.dot {
+  display: inline;
+  margin-right: 4px;
+}
+.close {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.closeIcon {
+  position: absolute;
+  left: 380px;
+  top: 0px;
+  cursor: pointer;
+}
+.closeIcon:hover {
+  background: rgb(211, 211, 211);
+  border-radius: 50px;
+}
+
+.headername {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.profileDetails {
+  display: flex;
+  margin-left: 35px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.profileDetails p {
+  color: #636466;
+  font-size: 13px;
+}
+.profileImage {
+  width: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  height: 50px;
+}
+.cardyear {
+  text-decoration: none;
+  font-size: 13px;
+  list-style: none;
+  color: #636466;
+  text-decoration: none;
+  margin-left: 4px;
+}
+.cardyear:hover {
+  text-decoration: underline;
+}
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.mainHeading {
+  font-size: 16px;
+  color: #282829;
+  text-decoration: none;
+  font-weight: bold;
+}
+.cardBody p {
+  font-size: 15px;
+  color: #282829;
+}
+.cardImage img {
+  width: 100%;
+  height: 500px;
+}
+.cardFooter {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-block: 12px;
+}
+.upVoteBtn {
+  color: #636466;
+  font-weight: 500;
+  margin-right: 10px;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: #fff;
+  outline: none;
+}
+.cardaddBtns {
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  color: #636466;
+  overflow: hidden;
+  border-radius: 20px;
+  border: 1px solid lightgrey;
+  font-size: 13px;
+  font-weight: 600;
+  align-items: center;
+  white-space: nowrap;
+  background-color: #eeeeee67;
+}
+.cardaddBtn .like {
+  color: #636466;
+  font-style: 12px;
+  font-weight: 500;
+  margin-right: 8px;
+}
+.more1 {
+  display: flex;
+  align-items: center;
+  margin-right: 2px;
+  gap: 2px;
+  height: 22px;
+  width: 22px;
+  color: #2e69ff;
+}
+.more {
+  height: 22px;
+  width: 22px;
+}
+.cardMsgPart {
+  display: flex;
+  align-items: center;
+}
+.cardMsg {
+  height: 20px;
+  width: 20px;
+  color: #636466;
+  height: 20px;
+  margin-right: 10px;
+}
+.para {
+  outline: none;
+  color: #636466;
+  font-weight: 100;
+}
+.upvoteContainer {
+  display: flex;
+  align-items: center;
+  padding: 5px 14px;
+
+  flex: 1;
+}
+
+.downvoteContainer {
+  border-left: 1px solid lightgrey;
+  padding-inline: 7px;
+  padding: 5px 14px;
+}
+
+.upvoteContainer:hover {
+  background-color: #eee;
+}
+.downvoteContainer:hover {
+  background-color: #eee;
+}

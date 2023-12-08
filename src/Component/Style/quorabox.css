@@ -1,0 +1,56 @@
+.completBox {
+  width: 589px;
+  height: 100px;
+  background-color: #fff;
+  margin-block: 10px;
+}
+.box {
+  padding-top: 15px;
+  display: flex;
+  gap: 10px;
+  padding-inline: 10px;
+  justify-content: flex-start;
+}
+.profile {
+  height: 32px;
+  width: 32px;
+  color: #636366;
+}
+.query {
+  width: 88%;
+  border-radius: 30px;
+  color: #939598;
+  background-color: #f7f7f8;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid lightgrey;
+  cursor: pointer;
+  padding: 2px 15px;
+}
+
+.list {
+  display: flex;
+  margin-top: 11px;
+  justify-content: space-around;
+  cursor: pointer;
+  align-items: center;
+}
+.list li {
+  list-style: none;
+  color: #636366;
+  font-size: 13px;
+  padding: 5px 70px;
+}
+
+.listItem {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+}
+.list li:hover {
+  background-color: #eee;
+  border-radius: 20px;
+}
+.ques {
+  color: #636366;
+}

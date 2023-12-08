@@ -1,0 +1,38 @@
+.backDrop {
+  background-color: #00000080;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  inset: 0;
+  top: 73px;
+}
+
+.searchResultsWrapper {
+  position: absolute;
+  left: 30%;
+  top: 0;
+  right: 40%;
+  z-index: 100;
+  background-color: #fff;
+  max-height: calc(100vh - 100px);
+  border: 1px solid lightgrey;
+
+  overflow-y: auto;
+}
+
+.searchListItem {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  padding: 10px;
+  font-size: 14px;
+}
+.searchListItem:hover {
+  background-color: #eeeeee98;
+}
+.addCircle {
+  color: rgba(0, 0, 255, 0.84);
+  font-weight: 500;
+  gap: 10px;
+}
